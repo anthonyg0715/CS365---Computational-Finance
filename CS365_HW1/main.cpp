@@ -36,7 +36,7 @@ int main()
 	/* This is the test for the future value function */
 
 	double fv, fv1, fv2;
-	fv = future_value(100.0, 0.0, 0.0, 0.5);//test 1 where t0 equals t1
+	fv = future_value(100.5, 0.0, 0.75, 5.5);//test 1 where t0 equals t1
 	fv1 = future_value(100.0, 0.0, 0.5, 0.5);//test 2 where t1 > t0
 	fv2 = future_value(100.0, 0.0, -0.5, 0.5);//test 3 where t1 < t0
 	cout << "Test Case Value1: " << fv << '\n';
